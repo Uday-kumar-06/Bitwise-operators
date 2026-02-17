@@ -26,7 +26,7 @@ public class Test {
         // for ~ operator we change 1 to 0 and 0 to 1
         System.out.println(e);
 
-        int f = a << 1;
+        int f = a << 2;
         System.out.println("5 -->" + Integer.toBinaryString(a));
         System.out.println(f);
         System.out.println("{\f} -->" + Integer.toBinaryString(f));
